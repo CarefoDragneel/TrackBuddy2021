@@ -3,7 +3,8 @@
 
 Android app which would help in increasing the productivity of the users, where they can reminders and schedules
 
-
+### Made at:
+- Tech Festival (Avishkar) Event: "DroidRush"
 
 
 ## Features
@@ -47,6 +48,3 @@ Team Name: Fuzz Exception
 * [Apoorv Pranjal](https://github.com/CarefoDragneel)
 * [Amit Kumar](https://github.com/hackeramitkumar)
 
-
-### Made at:
-- Tech Festival (Avishkar) Event: "DroidRush"
