@@ -37,7 +37,4 @@ Team Name: Fuzz Exception
 
 ### Made at:
 - Tech Festival (Avishkar) Event: "DroidRush"
-## Screenshots
-
-![App Screenshot](https://github.com/CarefoDragneel/Miwok-app/tree/master/Project%20Screenshots)
 
