@@ -6,6 +6,7 @@ Android app which would help in increasing the productivity of the users, where 
 ### Made at:
 - Tech Festival (Avishkar) Event: "DroidRush"
 
+**Get APK from:** [https://github.com/CarefoDragneel/TrackBuddy2021/blob/master/app-debug.apk)
 
 ## Features
 
