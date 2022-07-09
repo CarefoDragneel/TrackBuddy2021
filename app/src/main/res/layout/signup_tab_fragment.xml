@@ -14,7 +14,7 @@
     android:minHeight="48dp"
     android:paddingLeft="20dp"
     android:paddingTop="10dp"
-    android:textColorHint="@color/purple_200"
+    android:textColorHint="@color/inactive"
     android:paddingBottom="10dp"
     app:layout_constraintBottom_toTopOf="@id/mobile_number"
     app:layout_constraintEnd_toEndOf="parent"
@@ -26,12 +26,10 @@
     android:inputType="textEmailAddress"
     />
 
-
-
     <EditText
         android:id="@+id/mobile_number"
         android:layout_width="0dp"
-        android:textColorHint="@color/purple_200"
+        android:textColorHint="@color/inactive"
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_bg"
         android:hint="Enter your mobile"
@@ -53,7 +51,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Password"
-        android:textColorHint="@color/purple_200"
+        android:textColorHint="@color/inactive"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -76,7 +74,7 @@ android:inputType="numberPassword"
         android:hint="Confirm Password"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
-        android:textColorHint="@color/purple_200"
+        android:textColorHint="@color/inactive"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toTopOf="@id/already_account"

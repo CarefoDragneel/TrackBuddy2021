@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/calender"
             android:title="Calender"
-            android:icon="@drawable/calender_icon"
-            />
+            android:icon="@drawable/calender_icon"/>
         <item
             android:id="@+id/todo"
             android:title="To-Do"
-            android:icon="@drawable/task_icon"
-            />
-
+            android:icon="@drawable/task_icon"/>
         <item
             android:id="@+id/notes"
             android:title="Notes"
-            android:icon="@drawable/notes_icon"
-            />
+            android:icon="@drawable/notes_icon"/>
     </group>
-
-
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/Logout"
-            android:title="Logout"
-            android:icon="@drawable/logout_icon"
-            />
+        <item android:title="profile">
+            <menu>
+                <item
+                    android:id="@+id/Logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout_icon"
+                    />
+            </menu>
+        </item>
 
     </group>
-
-
-
-
-
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="share"
+                android:icon="@drawable/share_icon"
+                />
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate us"
+                android:icon="@drawable/rate"
+                />
+        </menu>
+    </item>
 </menu>
 
 

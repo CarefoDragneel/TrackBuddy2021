@@ -49,7 +49,7 @@ public class WalkThrough_reg extends AppCompatActivity {
         nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(getitem(0)<3)
+                if(getitem(0)<2)
                 {
                     mSlideViewPager.setCurrentItem(getitem(1),true);
                 }else
@@ -87,7 +87,7 @@ public class WalkThrough_reg extends AppCompatActivity {
     }
     public void setUpIndicator(int position)
     {
-        Dots = new TextView[4];
+        Dots = new TextView[3];
         mDotlayout.removeAllViews();
 
         for(int i = 0;i< Dots.length;i++)

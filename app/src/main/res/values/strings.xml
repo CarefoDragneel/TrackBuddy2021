@@ -1,20 +1,36 @@
 <resources>
-    <string name="app_name">TrackBuddy.n</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">TrackBuddy</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="calender">Calender</string>
 
-    //Headings
-    <string name="heading_one">Quick &amp; Easy Payments</string>
-    <string name="heading_two">Instant Notifications</string>
-    <string name="heading_three">Cashless Payment</string>
+    //Heangs
+    <string name="heading_one">Calender</string>
+    <string name="heading_two">To Do List</string>
+    <string name="heading_three">Take Notes</string>
     <string name="heading_fourth">Pay Anywhere</string>
 
     //Description
-    <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
-    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
-    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_one">You can add imporatant events with date and small notes</string>
+    <string name="desc_two">Add your tasks here , It will make your works smooth</string>
+    <string name="desc_three">We should write down every important thing,Make this your habit</string>
     <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="set_up_date">Set up Date</string>
+    <string name="set_up_time">Set up Time</string>
+    <string name="save">save</string>
+    <string name="menu_add_new_note_option">Add New Note</string>
+    <string name="enter_notes_title">Title</string>
+    <string name="enter_notes_description">Note</string>
+    <string name="delete">Delete</string>
 
+    //dialog box
+    <string name="dialogbox_title">Delete Note</string>
+    <string name="dialogbox_message">Are you sure you want to delete this note?</string>
+    <string name="dialogbox_pos_option">Yes</string>
+    <string name="dialogbox_neg_option">Cancel</string>
 
+    // show events
+    <string name="events_title">All Events</string>
+    <string name="events_delete">Delete</string>
 </resources>

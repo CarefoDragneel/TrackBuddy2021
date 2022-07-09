@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/addDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter event"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/set_due_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textSize="16sp"
+                android:textColor="@color/skin_200"
+                android:drawableRight="@drawable/calender_icon"
+                android:text="@string/set_up_date" />
+
+            <TextView
+                android:id="@+id/set_due_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textSize="16sp"
+                android:textColor="@color/skin_200"
+                android:drawableRight="@drawable/clock_icon"
+                android:text="@string/set_up_time" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/event_save_button"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+    </RelativeLayout>
+
+</LinearLayout>

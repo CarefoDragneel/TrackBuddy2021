@@ -1,8 +1,5 @@
 package com.example.trackbuddy;
-<<<<<<< HEAD
 
-=======
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,10 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-<<<<<<< HEAD
 
-=======
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -39,21 +33,15 @@ public class SignupTabFragment extends Fragment {
     float v = 0;
 
 
-<<<<<<< HEAD
-    public SignupTabFragment(){ }
-
-=======
-    private FirebaseAuth mAuth;
-
-    View objectSignUpFragment;
-
-
-
-
     public SignupTabFragment(){ }
 
 
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
+
+
+
+
+
+
     public void createUSer(){
         try {
             if(!email.getText().toString().isEmpty() && !password.getText().toString().isEmpty())
@@ -67,15 +55,11 @@ public class SignupTabFragment extends Fragment {
                                 startActivity(i);
                                 if(mAuth.getCurrentUser()!=null)
                                 {
-<<<<<<< HEAD
                                     mAuth.signOut();
                                 }
-=======
 
                                 }
                                 
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
-                            }
                         }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
@@ -91,10 +75,7 @@ public class SignupTabFragment extends Fragment {
             Toast.makeText(getContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
     private void attachToXML()
     {
         try {
@@ -114,20 +95,14 @@ public class SignupTabFragment extends Fragment {
         {
             Toast.makeText(getContext(),e.getMessage(), Toast.LENGTH_SHORT).show();
         }
-<<<<<<< HEAD
     }
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        objectSignUpFragment = (ViewGroup) inflater.inflate(R.layout.signup_tab_fragment, container, false);
-=======
 
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         objectSignUpFragment = (ViewGroup) inflater.inflate(R.layout.signup_tab_fragment, container, false);
 
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
+
 
         email = objectSignUpFragment.findViewById(R.id.email);
         password = objectSignUpFragment.findViewById(R.id.password);
@@ -135,15 +110,6 @@ public class SignupTabFragment extends Fragment {
         mobile = objectSignUpFragment.findViewById(R.id.mobile_number);
         signup = objectSignUpFragment.findViewById(R.id.signup_btn);
 
-<<<<<<< HEAD
-        email = objectSignUpFragment.findViewById(R.id.email);
-        password = objectSignUpFragment.findViewById(R.id.password);
-        confirmpassword = objectSignUpFragment.findViewById(R.id._confirm_password);
-        mobile = objectSignUpFragment.findViewById(R.id.mobile_number);
-        signup = objectSignUpFragment.findViewById(R.id.signup_btn);
-
-=======
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
 
         email.setTranslationY(800);
         password.setTranslationY(800);
@@ -161,16 +127,9 @@ public class SignupTabFragment extends Fragment {
         confirmpassword.animate().translationY(0).alpha(1).setDuration(800).setStartDelay(700).start();
         mobile.animate().translationY(0).alpha(1).setDuration(800).setStartDelay(300).start();
         signup.animate().translationY(0).alpha(1).setDuration(800).setStartDelay(900).start();
-<<<<<<< HEAD
         attachToXML();
         return objectSignUpFragment;
 
-=======
-attachToXML();
-        return objectSignUpFragment;
-
-
->>>>>>> 25a14f3cb26cc4356bafee9a8e23ba575d87d8c7
     }
 
 }
